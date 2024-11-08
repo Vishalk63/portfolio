@@ -10,7 +10,7 @@ function Navbar() {
     const {dark,setDark} = useContext(myContext)
     return (
         <div >
-            <motion.div className='w-screen flex justify-between items-center py-2 px-9 fixed top-0 left-0 bg-white backdrop-blur-md bg-opacity-5 text-white dark:bg-neutral-950 dark:text-white z-10 drop-shadow-lg '
+            <motion.div className='w-full flex justify-between items-center py-2 px-9 fixed top-0 left-0 bg-white bg-opacity-5 backdrop-blur-md  text-white dark:bg-neutral-950 dark:text-white z-10 drop-shadow-lg '
 
             >
                 <motion.div className='text-3xl text-white dark:text-white cursor-pointer font-semibold'
@@ -86,7 +86,7 @@ function Navbar() {
             </motion.div>
 
             {/* ------------------------- */}
-            <motion.div className='  md:hidden bg-white backdrop-blur-md bg-opacity-5 text-white dark:bg-neutral-900 dark:text-white drop-shadow-md h-screen w-[40%] fixed right-0 top-0 z-20'
+            <motion.div className='  md:hidden bg-white backdrop-blur-md bg-opacity-5 text-white dark:bg-neutral-900 dark:text-white drop-shadow-md h-full w-[40%] fixed right-0 top-0 z-20'
                 initial={{ x: "100%" }}
                 animate={{ x: open ? 0 : "100%" }}
                 // transition={{duration:0.2,type:'tween'}}

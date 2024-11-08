@@ -6,20 +6,16 @@ export const myContext = createContext()
 
 function App() {
 
-  // const customStyle={
-  //   background: 'linear-gradient(90deg, rgba(196,0,255,1) 0%, rgba(94,0,255,1) 100%)'
-  // }
-
   const [dark, setDark] = useState(false)
 
   return (
-    <>
+    <div className='oppo' >
       <myContext.Provider value={{dark,setDark}}>
-        <div className={`${dark && "dark"}`}>
+        <div className={`${dark && "dark "}`}>
           <AllComponents />
         </div>
       </myContext.Provider>
-    </>
+    </div>
   )
 }
 

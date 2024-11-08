@@ -1,26 +1,19 @@
 import React from 'react'
 import logo from '../images/profile2.jpg';
 import { motion } from 'framer-motion'
-import { Facebook, Github, Instagram, Linkedin, Mouse } from 'lucide-react';
+import { Facebook, Github, Instagram, Linkedin } from 'lucide-react';
 import { Toaster, toast } from 'sonner'
 import { Button } from "@/components/ui/button"
 import {
   Card,
-  CardContent,
-  CardDescription,
   CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import { AspectRatio } from '@radix-ui/react-aspect-ratio';
-
 
 function Home() {
   return (
     
-
     <div id='home' className='w-full h-full pt-20 py-10 flex justify-center items-center dark:bg-black'>
       <Toaster/>
       <motion.div
@@ -65,18 +58,16 @@ function Home() {
               transition={{ duration: 1 }}
             >
               <Card className="w-[350px] bg-transparent flex justify-center items-center border-none dark:bg-neutral-950">
-                <CardContent>
+                {/* <CardContent> */}
                   <div>
-                    <img className='w-full h-full object-cover rounded-lg' src={logo} alt="" />
+                    <img className='w-72 h-72 object-cover rounded-lg' src={logo} alt="" />
                   </div>
-                </CardContent>
+                {/* </CardContent> */}
               </Card>
             </motion.div>
             {/* -------- */}
 
           </div>
-
-
 
           <CardFooter className="flex justify-between">
             <motion.div

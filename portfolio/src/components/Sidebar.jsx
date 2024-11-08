@@ -14,7 +14,7 @@ function Sidebar({setOpen}) {
         
         >
             <div >
-                <div className='fixed top-4 right-5 cursor-pointer' onClick={()=>setOpen(false)}>
+                <div className='fixed top-4 right-5 cursor-pointer ' onClick={()=>setOpen(false)}>
                     <Menu/>
                 </div>
 
