@@ -23,7 +23,7 @@ function Home() {
       >
         <Card id="#home" className="w-auto h-full backdrop-blur-md bg-white bg-opacity-5 shadow-lg dark:bg-neutral-950 flex flex-col justify-between p-3 gap-2 ">        {/* -------- */}
 
-          <div className='flex flex-col-reverse md:flex-row gap-5 bg-transparent'>
+          <div className='flex flex-col-reverse md:flex-row gap-5 bg-transparent justify-center items-center'>
             <motion.div
               initial={{ x: -100, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
@@ -60,7 +60,7 @@ function Home() {
               <Card className="w-[350px] bg-transparent flex justify-center items-center border-none dark:bg-neutral-950">
                 {/* <CardContent> */}
                   <div>
-                    <img className='w-72 h-72 object-cover rounded-lg' src={logo} alt="" />
+                    <img className='w-full h-full object-cover rounded-lg' src={logo} alt="" />
                   </div>
                 {/* </CardContent> */}
               </Card>
