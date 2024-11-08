@@ -43,10 +43,10 @@ function Home() {
                 </CardHeader>
 
                 <CardFooter className="space-x-2">
-                  <Button variant="outline"><a target='blank' href="/"><Github /></a></Button>
+                  <Button variant="outline"><a target='blank' href="https://github.com/Vishalk63"><Github /></a></Button>
                   <Button variant="outline"><a target='blank' href="/"><Linkedin /></a></Button>
                   <Button variant="outline"><a target='blank' href="/"><Instagram /></a></Button>
-                  <Button variant="outline"><a target='blank' href="/"><Facebook /></a></Button>
+                  {/* <Button variant="outline"><a target='blank' href="/"><Facebook /></a></Button> */}
                 </CardFooter>
               </Card>
             </motion.div>
