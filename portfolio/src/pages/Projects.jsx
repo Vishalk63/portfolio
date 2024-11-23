@@ -54,7 +54,7 @@ function Projects() {
                     >
                         <Card className="w-[350px] xl:w-[500px] dark:bg-neutral-950 bg-white backdrop-blur-md bg-opacity-5 text-white">
                             <CardHeader>
-                                <CardTitle>TATA 1MG Website Clone</CardTitle>
+                                <CardTitle>Food Website with all functionalites</CardTitle>
                                 <CardDescription className="text-white">A healthcare platform that provides a variety of services</CardDescription>
                             </CardHeader>
 
@@ -69,8 +69,8 @@ function Projects() {
                             </CardContent>
 
                             <CardFooter className="space-x-4">
-                                <Button className='bg-white text-black'><a target='blank' href="https://funny-sprite-a4c334.netlify.app/">Live</a></Button>
-                                <Button className='bg-white text-black'><a target='blank' href="https://github.com/Vishalk63/1mgProject">GitHub</a></Button>
+                                <Button className='bg-white text-black'><a target='blank' href="https://food-app-silk-zeta.vercel.app/">Live</a></Button>
+                                <Button className='bg-white text-black'><a target='blank' href="https://github.com/Vishalk63/ecom">GitHub</a></Button>
                             </CardFooter>
                         </Card>
                     </motion.div>
