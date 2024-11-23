@@ -7,13 +7,13 @@ import { myContext } from '../App';
 
 function Navbar() {
     const [open, setOpen] = useState(false)
-    const {dark,setDark} = useContext(myContext)
+    const {dark,setDark} = useContext(myContext) 
     return (
         <div >
             <motion.div className='w-full flex justify-between items-center py-2 px-9 fixed top-0 left-0 bg-white bg-opacity-5 backdrop-blur-md  text-white dark:bg-neutral-950 dark:text-white z-10 drop-shadow-lg '
 
             >
-                <motion.div className='text-3xl text-white dark:text-white cursor-pointer font-semibold'
+                <motion.div className='text-3xl text-white dark:text-white cursor-pointer font-semibold '
                     initial={{ scale: 0 }}
                     animate={{ scale: 1 }}
                     whileTap={{scale:1.8}}

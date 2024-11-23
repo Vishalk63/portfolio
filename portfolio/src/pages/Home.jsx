@@ -14,7 +14,7 @@ import {
 function Home() {
   return (
     
-    <div id='home' className='w-full h-full pt-20 py-10 flex justify-center items-center dark:bg-black'>
+    <div id='home' className='w-full min-h-screen h-full pt-20 py-10 flex justify-center items-center dark:bg-black'>
       <Toaster/>
       <motion.div
       initial={{opacity:0}}
