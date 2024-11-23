@@ -9,7 +9,7 @@ function App() {
   const [dark, setDark] = useState(false)
 
   return (
-    <div className='oppo' >
+    <div className='w-full' >
       <myContext.Provider value={{dark,setDark}}>
         <div className={`${dark && "dark "}`}>
           <AllComponents />
